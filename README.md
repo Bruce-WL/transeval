@@ -28,7 +28,7 @@ XXLIN1987译文：https://mp.weixin.qq.com/s/y8gvX5qDY8LPMTiKIAOCYw
 
 测试结果如下：
 
-![image-20240413160728234](https://picbed-1324358826.cos.ap-beijing.myqcloud.com/typechoimage-20240413160728234.png)
+![image-20240413160728234](https://picbed-1324358826.cos.ap-beijing.myqcloud.com/typechoconclusion.png)
 
 test_code文件夹下提供了测试使用的Python代码；
 

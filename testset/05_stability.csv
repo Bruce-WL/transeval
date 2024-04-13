@@ -1,0 +1,319 @@
+﻿No.,year_code,source_text,reference_text_1-XXLIN-reference,reference_text_2-web-error_annotation,text_to_be_evaluated,annotated_errors,Unnamed: 7,annotated_errors_type,GPT_evaluattion_results_1,GPT_evaluattion_results_2,GPT_evaluattion_results_3,GPT_evaluattion_results_4,GPT_evaluattion_results_5,GPT_evaluattion_results_6,GPT_evaluattion_results_7,GPT_evaluattion_results_8,GPT_evaluattion_results_9,GPT_evaluattion_results_10
+1,2021上-1,2020年11月中国开始了第七次人口普查。人口普查将为开启全面建设社会主义现代化国家新征程提供科学准确的统计信息支持。开展第七次全国人口普查，是推动经济高质量发展的内在要求。当前，我国经济正处于转变发展方式、优化经济结构、转换增长动力的攻关期。,"China carried out its Seventh National Population Census in November, 2020. The census will provide scientific and accurate statistical information support for China to embark on a new journey toward building a modern socialist country. The census reflects the internal need for the advancement of quality economic development. At present, China’s economy is in the critical period of transforming the development mode, optimizing the economic structure, and transforming the growth momentum.","China carried out its Seventh National Population Census in November, 2020. The census will provide scientific and accurate <漏译> information support for China to embark on a new journey toward building a modern socialist country. The census reflects the internal urgent<过译>need for the advancement of quality economic development.  At the present critical period, China is transforming<误译> the development mode, optimizing the economic structure, and transforming the growth momentum.","<漏译>：statistical
+<过译>：增加urgent
+<误译>：含义与原文不一致。原文指“处于...阶段”，引入的错误为“正在...”","<漏译>：statistical
+<过译>：增加urgent
+<误译>：含义与原文不一致。原文指“处于...阶段”，引入的错误为“正在...”",3,fidelity,"{
+    ""type"": ""Fidelity"",
+    ""grade"": ""Good"",
+    ""mark"": 8,
+    ""mistakes"": [
+      {
+        ""omissions"": ""The original text's phrase '全面建设社会主义现代化国家新征程' is translated as 'a new journey toward building a modern socialist country', omitting the nuance of 'in all respects' found in the reference text.""
+      },
+      {
+        ""mistranslations"": ""The phrase '内在要求' is translated as 'internal urgent need', which slightly distorts the original meaning. The more accurate translation would be 'inherent requirement', as seen in the reference text.""
+      },
+      {
+        ""mistranslations"": ""The phrase '转换增长动力的攻关期' is translated as 'transforming the growth momentum', which simplifies the original text's meaning. The reference text's 'transitioning to new growth drivers' more accurately captures the nuance.""
+      }
+    ]
+}","{
+    ""type"": ""Fidelity"",
+    ""grade"": ""Good"",
+    ""mark"": 8,
+    ""mistakes"": [
+      {
+        ""omissions"": ""The original text specifies the census as 'the seventh' while the text to be evaluated omits 'the' before 'Seventh National Population Census'.""
+      },
+      {
+        ""mistranslations"": ""The phrase 'At the present critical period' in the text to be evaluated simplifies the original text's meaning, which describes the current stage of the Chinese economy more comprehensively.""
+      }
+    ]
+}","{
+    ""type"": ""Fidelity"",
+    ""grade"": ""Good"",
+    ""mark"": 8,
+    ""mistakes"": [
+      {
+        ""omissions"": ""The original text has mentioned '全面建设社会主义现代化国家新征程' which translates to 'building a modern socialist country in all respects', but the text to be evaluated simplifies it to 'building a modern socialist country'.""
+      },
+      {
+        ""mistranslations"": ""The phrase 'At the present critical period' in the text to evaluate simplifies the original text's meaning, which is '当前，我国经济正处于转变发展方式、优化经济结构、转换增长动力的攻关期', more accurately translated as 'The Chinese economy is now at a significant stage of transforming the growth model, enhancing economic restructuring, and transitioning to new growth drivers'.""
+      }
+    ]
+}","{
+  ""type"": ""Fidelity"",
+  ""grade"": ""Good"",
+  ""mark"": 8,
+  ""mistakes"": [
+    {
+      ""omissions"": ""The original text's phrase '全面建设社会主义现代化国家新征程' is more specifically translated in the reference as 'building a modern socialist country in all respects', which is simplified in the text to be evaluated as 'building a modern socialist country'. This omission loses the nuance of 'in all respects'.""
+    },
+    {
+      ""mistranslations"": ""The phrase 'At the present critical period' in the text to be evaluated simplifies the original text's meaning. The original text describes the current stage of the Chinese economy more as a '攻关期' (a period of tackling key problems) rather than just a 'critical period'.""
+    }
+  ]
+}","{
+  ""type"": ""Fidelity"",
+  ""grade"": ""Good"",
+  ""mark"": 8,
+  ""mistakes"": [
+    {
+      ""omissions"": ""The original text's phrase '全面建设社会主义现代化国家新征程' is more specifically translated in the reference as 'building a modern socialist country in all respects', which is simplified in the text to be evaluated as 'building a modern socialist country'. This omission loses the nuance of 'in all respects'.""
+    },
+    {
+      ""mistranslations"": ""The phrase 'At the present critical period' in the text to be evaluated simplifies the original text's meaning. The original text describes the current stage of the Chinese economy more as a '攻关期' (a period of tackling key problems) rather than just a 'critical period'.""
+    }
+  ]
+}","{
+    ""type"": ""Fidelity"",
+    ""grade"": ""Good"",
+    ""mark"": 8,
+    ""mistakes"": [
+      {
+        ""omissions"": ""The original text's phrase '全面建设社会主义现代化国家新征程' is more specifically translated in the reference text as 'building a modern socialist country in all respects', which is simplified in the text to evaluate as 'building a modern socialist country'. This omission loses the emphasis on the comprehensive nature of the development.""
+      },
+      {
+        ""mistranslations"": ""The phrase 'At the present critical period' in the text to evaluate simplifies the original text's meaning. The original and reference texts describe the current stage of China's economy without implying it is a 'critical period', which could introduce a slightly different nuance.""
+      },
+      {
+        ""mistranslations"": ""The term 'transforming the growth momentum' in the text to evaluate is a mistranslation of the original's '转换增长动力', which is more accurately translated in the reference text as 'transitioning to new growth drivers'. The term 'momentum' does not fully capture the concept of 'drivers', which implies a source of movement or growth.""
+      }
+    ]
+}","{
+    ""type"": ""Fidelity"",
+    ""grade"": ""Good"",
+    ""mark"": 8,
+    ""mistakes"": [
+      {
+        ""omissions"": ""The original text's phrase '全面建设社会主义现代化国家新征程' is translated as 'a new journey toward building a modern socialist country', omitting the nuance of 'in all respects' which adds depth to the original intent.""
+      },
+      {
+        ""mistranslations"": ""The phrase '内在要求' is translated as 'internal urgent need', which slightly distorts the original meaning. The more accurate translation would be 'inherent requirement', as seen in the reference text.""
+      },
+      {
+        ""mistranslations"": ""The phrase '转换增长动力的攻关期' is translated as 'transforming the growth momentum', which simplifies the original text's 'transitioning to new growth drivers'. The term '攻关期' indicating a 'significant stage' or 'critical period' of tackling key problems is not fully captured.""
+      }
+    ]
+}","{
+    ""type"": ""Fidelity"",
+    ""grade"": ""Good"",
+    ""mark"": 8,
+    ""mistakes"": [
+      {
+        ""omissions"": ""The original text has mentioned '全面建设社会主义现代化国家新征程' which emphasizes the comprehensive aspect of building a modern socialist country, but this comprehensive aspect is not mentioned in the text to evaluate.""
+      },
+      {
+        ""mistranslations"": ""The phrase 'At the present critical period' in the text to evaluate simplifies the original text's meaning. The original text describes the current stage as '转变发展方式、优化经济结构、转换增长动力的攻关期', which is more specifically about transforming the development mode, optimizing the economic structure, and transitioning to new growth drivers, rather than just a 'critical period'.""
+      }
+    ]
+}","{
+    ""type"": ""Fidelity"",
+    ""grade"": ""Good"",
+    ""mark"": 8,
+    ""mistakes"": [
+      {
+        ""omissions"": ""The original text has mentioned '全面建设社会主义现代化国家新征程' which emphasizes the comprehensive aspect of building a modern socialist country, but it is not mentioned in the text to evaluate.""
+      },
+      {
+        ""mistranslations"": ""The phrase 'At the present critical period' in the text to evaluate simplifies the original text's meaning, which describes the current stage as '转变发展方式、优化经济结构、转换增长动力的攻关期', emphasizing the strategic importance of this period for economic transformation.""
+      }
+    ]
+}","{
+    ""type"": ""Fidelity"",
+    ""grade"": ""Good"",
+    ""mark"": 8,
+    ""mistakes"": [
+      {
+        ""omissions"": ""The original text's phrase '全面建设社会主义现代化国家新征程' was translated as 'a new journey toward building a modern socialist country', omitting the nuance of 'in all respects' or 'comprehensive' which is present in the reference text.""
+      },
+      {
+        ""mistranslations"": ""The phrase '内在要求' was translated as 'internal urgent need', which slightly distorts the original meaning. The more accurate translation, as seen in the reference text, is 'an inherent requirement', which does not imply urgency.""
+      },
+      {
+        ""mistranslations"": ""The phrase '转换增长动力的攻关期' was translated as 'transforming the growth momentum', which simplifies the original meaning. The reference text elaborates it as 'transitioning to new growth drivers', which captures the essence of a strategic shift rather than a mere transformation.""
+      }
+    ]
+}"
+2,2021上-1,2020年11月中国开始了第七次人口普查。人口普查将为开启全面建设社会主义现代化国家新征程提供科学准确的统计信息支持。开展第七次全国人口普查，是推动经济高质量发展的内在要求。当前，我国经济正处于转变发展方式、优化经济结构、转换增长动力的攻关期。,"In November 2020, China launched its seventh national census. The census will provide relevant and accurate statistical information for the country as it embarks on the journey of building a modern socialist country in all respects. The latest census is an inherent requirement of enhanced high-quality economic development. The Chinese economy is now at a significant stage of transforming the growth model, enhancing economic restructuring, and transitioning to new growth drivers.","China carried out its Seventh National Population Census in November, 2020. The census will provide scientific and accurate statistical information support for China to embark on a new journey toward building a modern socialist country. The census reflects the internal need for the advancement of quality economic development. At present, China’s economy is in the critical period of transforming the development mode, optimizing the economic structure, and transforming the growth momentum.","China carried out its Seventh National Population Census in November, 2020. The census will provide scientific and accurate statistical info<语级> support for China to embark on a new journey toward building a modern socialist country. The census reflects the internal need for the push<语级> of quality economic development. At present, China’s economy is in the critical period of transforming the development mode, making the economic structure better<语级>, and transforming the growth momentum.","<语级>：info不正式
+<语级>：相较于advancement不正式
+<语级>：相较于optimizing更不正式",3,fluency,"{
+    ""type"": ""Fluency"",
+    ""grade"": ""Good"",
+    ""mark"": 8,
+    ""mistakes"": [
+      {""smoothness"": ""The phrase 'scientific and accurate statistical info support' could be more fluently expressed as 'relevant and accurate statistical information' to better match the reading habits of the target language readers.""},
+      {""language style"": ""The use of 'making the economic structure better' is less formal and slightly awkward compared to the original 'enhancing economic restructuring'. A more formal and precise language could improve the fluency.""},
+      {""over literal translation"": ""The phrase 'transforming the growth momentum' is a direct translation that might not fully convey the original meaning. 'Transitioning to new growth drivers' would be a more idiomatic expression in English.""}
+    ]
+}","{
+    ""type"": ""Fluency"",
+    ""grade"": ""Good"",
+    ""mark"": 8,
+    ""mistakes"": [
+      {""smoothness"": ""The phrase 'scientific and accurate statistical info support' could be more fluently expressed as 'scientifically accurate statistical support' to better match the reading habits of the target language.""},
+      {""language style"": ""The use of 'info' instead of 'information' in 'scientific and accurate statistical info support' is slightly informal compared to the overall formal tone of the text.""},
+      {""over literal translation"": ""The phrase 'transforming the growth momentum' is a direct translation that might not fully convey the original meaning. A more nuanced translation like 'transitioning to new growth drivers' as seen in the reference text captures the essence more effectively.""}
+    ]
+}","{
+    ""type"": ""Fluency"",
+    ""grade"": ""Good"",
+    ""mark"": 8,
+    ""mistakes"": [
+      {""smoothness"": ""The phrase 'scientific and accurate statistical info support' could be more fluently expressed as 'scientifically accurate statistical support' to better match the reading habits of the target language readers.""},
+      {""language style"": ""The use of 'info' instead of 'information' in 'scientific and accurate statistical info support' is slightly informal compared to the overall formal tone of the text.""},
+      {""over literal translation"": ""The phrase 'making the economic structure better' is a direct translation that could be more fluently expressed as 'enhancing economic restructuring' to avoid the over literal translation and align with the reference text.""}
+      ]
+}","{
+    ""type"": ""Fluency"",
+    ""grade"": ""Good"",
+    ""mark"": 8,
+    ""mistakes"": [
+      {""smoothness"": ""The phrase 'scientific and accurate statistical info support' could be more fluently expressed as 'scientifically accurate statistical information to support'.""},
+      {""language style"": ""The use of 'info' instead of 'information' feels slightly informal given the context of a national census and its implications.""},
+      {""over literal translation"": ""The phrase 'transforming the growth momentum' is a direct translation that might not fully convey the intended meaning of transitioning to new growth drivers in the target language.""}
+    ]
+}","{
+    ""type"": ""Fluency"",
+    ""grade"": ""Good"",
+    ""mark"": 8,
+    ""mistakes"": [
+      {""smoothness"": ""The phrase 'scientific and accurate statistical info support' could be more fluently expressed as 'relevant and accurate statistical information' to better match the reading habits of the target language readers.""},
+      {""language style"": ""The use of 'info' instead of 'information' in 'scientific and accurate statistical info support' is slightly informal compared to the overall formal tone of the text.""},
+      {""over literal translation"": ""The phrase 'transforming the growth momentum' is a direct translation that might not fully convey the intended meaning of transitioning to new growth drivers in the context of economic development.""}
+    ]
+}","{
+    ""type"": ""Fluency"",
+    ""grade"": ""Good"",
+    ""mark"": 8,
+    ""mistakes"": [
+      {""smoothness"": ""The phrase 'scientific and accurate statistical info support' could be more fluently expressed as 'scientifically accurate statistical information to support' to better match the reading habits of the target language.""},
+      {""language style"": ""The use of 'info' instead of 'information' in 'statistical info support' is slightly informal compared to the overall formal tone of the text.""},
+      {""over literal translation"": ""The phrase 'transforming the growth momentum' is a direct translation that might not fully convey the original meaning. A more nuanced translation like 'transitioning to new growth drivers' captures the essence better.""}
+    ]
+}","{
+    ""type"": ""Fluency"",
+    ""grade"": ""Good"",
+    ""mark"": 8,
+    ""mistakes"": [
+      {""smoothness"": ""The phrase 'scientific and accurate statistical info support' could be more fluently expressed as 'scientifically accurate statistical information to support' to better match the reading habits of the target language.""},
+      {""language style"": ""The use of 'info' instead of 'information' in 'scientific and accurate statistical info support' is slightly informal compared to the overall formal tone of the text.""},
+      {""over literal translation"": ""The phrase 'transforming the growth momentum' is a direct translation that might not fully convey the original meaning. 'Transitioning to new growth drivers' would be a more idiomatic expression in English.""}
+    ]
+}","{
+    ""type"": ""Fluency"",
+    ""grade"": ""Good"",
+    ""mark"": 8,
+    ""mistakes"": [
+      {""smoothness"": ""The phrase 'scientific and accurate statistical info support' could be more fluently expressed as 'scientifically accurate statistical support' to better match the reading habits of the target language.""},
+      {""language style"": ""The use of 'info' instead of 'information' in 'statistical info support' is slightly informal compared to the overall formal tone of the text.""},
+      {""over literal translation"": ""The phrase 'transforming the growth momentum' is a direct translation that might not fully convey the original meaning. 'Transitioning to new growth drivers' would be a more accurate reflection of the source text's intent.""}
+    ]
+}","{
+    ""type"": ""Fluency"",
+    ""grade"": ""Good"",
+    ""mark"": 8,
+    ""mistakes"": [
+      {""smoothness"": ""The phrase 'scientific and accurate statistical info support' could be more fluently expressed as 'scientifically accurate statistical support' to better match the reading habits of the target language.""},
+      {""language style"": ""The use of 'info' instead of 'information' in 'scientific and accurate statistical info support' is slightly informal compared to the overall formal tone of the text.""},
+      {""over literal translation"": ""The phrase 'transforming the growth momentum' is a direct translation that might not fully convey the original meaning. 'Transitioning to new growth drivers' would be a more accurate reflection of the intended meaning.""}
+      ]
+}","{
+    ""type"": ""Fluency"",
+    ""grade"": ""Good"",
+    ""mark"": 8,
+    ""mistakes"": [
+      {""smoothness"": ""The phrase 'scientific and accurate statistical info support' could be more fluently expressed as 'relevant and accurate statistical information' to better match the reading habits of the target language readers.""},
+      {""language style"": ""The use of 'making the economic structure better' is a bit informal and less precise compared to 'enhancing economic restructuring' as used in the reference text.""},
+      {""over literal translation"": ""The phrase 'transforming the growth momentum' is a direct translation that might not fully convey the original meaning, 'transitioning to new growth drivers' would be more appropriate and in line with the reference text.""}
+    ]
+}"
+3,2021上-1,2020年11月中国开始了第七次人口普查。人口普查将为开启全面建设社会主义现代化国家新征程提供科学准确的统计信息支持。开展第七次全国人口普查，是推动经济高质量发展的内在要求。当前，我国经济正处于转变发展方式、优化经济结构、转换增长动力的攻关期。,"China carried out its Seventh National Population Census in November, 2020. The census will provide scientific and accurate statistical information support for China to embark on a new journey toward building a modern socialist country. The census reflects the internal need for the advancement of quality economic development. At present, China’s economy is in the critical period of transforming the development mode, optimizing the economic structure, and transforming the growth momentum.","China carried out its Seventh National Population Census in November, 2021. The census will provide scientific and accurate statistical information support for China to embark on a new journey toward building a modern socialist country. The census reflects the internal need for the advancement of quality economic development. At present, China’s economy is in the critical period of transforming the development mode, optimizing the economic structure, and transforming the growth momentum.","China will carry out<时态错误> its seventh National Population Census in November, 2020. The census will provide scientific and accurate statistical information support for China to embark in<搭配错误> a new journey toward building a modern socialist country. The census reflects the internal need for the advancement of quality economi<拼写错误> development. At present, China’s economy is in the critical period of transforming the development mode, optimizing the economic structure, and transforming the growth momentum.","<时态错误>：应该为过去时
+<搭配错误>：embark on
+<拼写错误>：economic",3,linguistic convention,"{
+    ""type"": ""Technical issues"",
+    ""grade"": ""Good"",
+    ""mark"": 8,
+    ""mistakes"": [
+      {""Punctuation"": ""The date format 'November, 2020' should follow the English convention without a comma, as in 'November 2020'.""},
+      {""Terminology"": ""The phrase 'quality economi development' is missing the 'c' in 'economic', making it 'quality economic development'.""}
+    ]
+}","{
+    ""type"": ""Technical issues"",
+    ""grade"": ""Good"",
+    ""mark"": 8,
+    ""mistakes"": [
+      {""Punctuation"": ""The date format 'November, 2020' should follow the English convention without a comma, as in 'November 2020'.""},
+      {""Terminology"": ""The phrase 'quality economi development' should be 'high-quality economic development' to match the terminology used in the reference text and to correct the spelling mistake in 'economi'.""}
+    ]
+}","{
+    ""type"": ""Technical issues"",
+    ""grade"": ""Good"",
+    ""mark"": 8,
+    ""mistakes"": [
+      {""Punctuation"": ""The date format 'November, 2020' should follow the English convention without a comma, as in 'November 2020'.""},
+      {""Terminology"": ""The phrase 'quality economi development' should be 'high-quality economic development' to match the terminology used in the reference text and to correct the spelling mistake in 'economi'.""}
+    ]
+}","{
+    ""type"": ""Technical issues"",
+    ""grade"": ""Good"",
+    ""mark"": 8,
+    ""mistakes"": [
+      {""Punctuation"": ""The date format 'November, 2020' should follow the English convention without a comma, as in 'November 2020'.""},
+      {""Terminology"": ""The phrase 'quality economi development' should be 'high-quality economic development' to match the terminology used in the reference text and to correct the spelling mistake in 'economi'.""}
+    ]
+}","{
+    ""type"": ""Technical issues"",
+    ""grade"": ""Good"",
+    ""mark"": 8,
+    ""mistakes"": [
+      {""Numerical Conversion"": ""The date format 'November, 2020' should follow the source text format, which is 'November 2020', without the comma.""},
+      {""Terminology"": ""The term 'quality economi development' is a misspelling and should be 'quality economic development'. Additionally, 'economic' is a more accurate term than 'economi', aligning better with the reference text's 'economic development'.""}
+    ]
+}","{
+    ""type"": ""Technical issues"",
+    ""grade"": ""Good"",
+    ""mark"": 8,
+    ""mistakes"": [
+      {""Numerical Conversion"": ""The date format 'November, 2020' should follow the source text format, which is 'November 2020', without the comma.""},
+      {""Terminology"": ""The term 'quality economi development' is a misspelling and should be 'quality economic development'. Additionally, 'economic' is a more accurate term than 'economi', aligning better with the reference text's 'economic development'.""}
+    ]
+}","{
+    ""type"": ""Technical issues"",
+    ""grade"": ""Good"",
+    ""mark"": 8,
+    ""mistakes"": [
+      {""Numerical Conversion"": ""The date format 'November, 2020' should follow the source text format 'November 2020' without a comma.""},
+      {""Terminology"": ""The term 'quality economi development' is missing the 'c' in 'economic' and should be 'quality economic development' to match the terminology used in the reference text 'enhanced high-quality economic development'.""}
+    ]
+}","{
+    ""type"": ""Technical issues"",
+    ""grade"": ""Good"",
+    ""mark"": 8,
+    ""mistakes"": [
+      {""Numerical Conversion"": ""The date format 'November, 2020' should follow the source text format 'In November 2020' for consistency.""},
+      {""Terminology"": ""The term 'quality economi development' is a misspelling and should be 'quality economic development'. Additionally, 'economic' is a more accurate term than 'economi', aligning better with the source and reference texts.""},
+      {""Terminology"": ""The phrase 'transforming the growth momentum' could be more accurately translated as 'transitioning to new growth drivers' to better reflect the terminology used in the reference text and to match the source text's meaning more closely.""}
+    ]
+}","{
+    ""type"": ""Technical issues"",
+    ""grade"": ""Good"",
+    ""mark"": 8,
+    ""mistakes"": [
+      {""Numerical Conversion"": ""The date format 'November, 2020' should follow the source text format 'November 2020' without a comma.""},
+      {""Terminology"": ""The term 'quality economi development' is a misspelling and should be 'quality economic development'.""}
+    ]
+}","{
+  ""type"": ""Technical issues"",
+  ""grade"": ""Good"",
+  ""mark"": 8,
+  ""mistakes"": [
+    {
+      ""Numerical Conversion"": ""The date format should be 'November 2020' instead of 'November, 2020'. The comma is unnecessary and not standard in this context.""
+    },
+    {
+      ""Terminology"": ""The phrase 'quality economi development' should be 'high-quality economic development'. The term 'economi' is misspelled and lacks the adjective 'high' to accurately reflect the source text.""
+    }
+  ]
+}"

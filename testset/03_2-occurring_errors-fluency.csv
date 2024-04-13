@@ -1,0 +1,118 @@
+﻿No.,year_code,source_text,reference_text_1-XXLIN-reference,reference_text_2-web-error_annotation,text_to_be_evaluated,annotated_errors,annotated_errors_num,GPT_evaluattion_results,num_of_errors_detected_by_GPT,num_of_correct_GPT_detections,precision,recall
+1,2021上-1,2020年11月中国开始了第七次人口普查。人口普查将为开启全面建设社会主义现代化国家新征程提供科学准确的统计信息支持。开展第七次全国人口普查，是推动经济高质量发展的内在要求。当前，我国经济正处于转变发展方式、优化经济结构、转换增长动力的攻关期。,"In November 2020, China launched its seventh national census. The census will provide relevant and accurate statistical information for the country as it embarks on the journey of building a modern socialist country in all respects. The latest census is an inherent requirement of enhanced high-quality economic development. The Chinese economy is now at a significant stage of transforming the growth model, enhancing economic restructuring, and transitioning to new growth drivers.","China carried out its Seventh National Population Census in November, 2020. The census will provide scientific and accurate statistical information support for China to embark on a new journey toward building a modern socialist country. The census reflects the internal need for the advancement of quality economic development. At present, China’s economy is in the critical period of transforming the development mode, optimizing the economic structure, and transforming the growth momentum.","China carried out its Seventh National Population Census in November, 2020. The census will provide scientific and accurate <漏译> info<语级>support for China to embark on a new journey toward building a modern socialist country. The census reflects the internal urgent<过译>need for the push<语级> of quality economic development.  At the present critical period, China is transforming<误译> the development mode, making the economic structure better<语级> and transforming the growth momentum.","<语级>：info不正式
+<语级>：相较于advancement不正式
+<语级>：相较于optimizing更不正式",3,"{
+    ""type"": ""Fluency"",
+    ""grade"": ""Good"",
+    ""mark"": 8,
+    ""mistakes"": [
+      {""smoothness"": ""The phrase 'info support' disrupts the fluency, as it feels informal compared to the rest of the text. A more appropriate term would be 'statistical information support' to match the formality of the context.""},
+      {""language style"": ""The phrase 'making the economic structure better' is less formal and less precise than the original 'enhancing economic restructuring'. It slightly deviates from the formal and precise language style of the original text.""},
+      {""over literal translation"": ""The phrase 'internal urgent need' is a slightly awkward rendering of 'inherent requirement', which might be a result of over literal translation. The original phrase conveys a sense of necessity that is intrinsic to China's economic strategy, which is not fully captured by 'internal urgent need'.""}
+    ]
+}",3,2.0,0.6666666666666666,0.6666666666666666
+2,2021上-2,及时查清人口数量、结构和分布这一基本国情，摸清人力资源结构信息，才能够更加准确地把握需求结构、城乡结构、区域结构、产业结构等状况，为推动经济高质量发展，建设现代化经济体系提供有力的支持。,"In this context, it is important to gather accurate and up-to-date data about the size, structure and distribution of the population, as well as the demographic structure of the labor force. Only by doing so can we have a better understanding of the demand structure, the rural-urban dual structure, regional disparities, and the industrial structure, and at the same time provide strong support for high-quality development and a modern economic system. ","Only by gaining timely access to such fundamentals of the country as population size, structure and distribution and deep insights into the demographic structure information, can China have a clearer picture of its demand, urban and rural, regional, and industrial structures, etc., thus offering strong support for the high-quality economic development and the modernization of the economic system.","Only by gaining timely access to such conditions<误译/欠译> of the country as population digits<语级>, structure and distribution and  touching the human resource structure information<过度直译>, can China have a clearer picture of its demand, city and contryside<语级>, <漏译> and industrial structures, etc., thus offering strong support for the high-quality <漏译> development and the modernization of the economic system.","<语级>：digits不符合当前语境
+<过于直译>
+<语级>：urban and rural更正式",3,"{
+    ""type"": ""Fluency"",
+    ""grade"": ""Passable"",
+    ""mark"": 7,
+    ""mistakes"": [
+      {""smoothness"": ""The phrase 'population digits' is less fluent and could be replaced with 'population size' to match the fluency of the reference text.""},
+      {""language style"": ""The use of 'touching the human resource structure information' is stylistically awkward and not in line with the original or reference text's style. 'Gathering information on the human resource structure' would be more appropriate.""},
+      {""over literal translation"": ""The phrase 'city and countryside' is a direct translation of '城乡结构' (rural-urban dual structure) and does not fully convey the intended meaning of the original text, which refers to the broader concept of rural-urban disparities or structure.""}
+      ]
+}",3,3.0,1.0,1.0
+3,2021上-3,人口普查是完善人口发展战略和政策体系，促进人口长期均衡发展的迫切需要。自2010年第六次全国人口普查以来，我国人口发展的内在动力和外部条件发生了显著改变。人口总规模增长减缓，劳动年龄人口波动下降，老龄化程度不断加深。,"The 2020 census is also an urgent requirement of modernizing our population development strategy and policy system and pushing forward the long-term, balanced development of the population. Since the sixth census in 2010, the internal dynamics and external conditions of population development in our country have witnessed notable changes. For example, population growth is slowing down; the working-age population declines despite frequent fluctuations; and, the whole country is ageing fast.","The census is also an urgent requirement to improve population development strategy and policy system, and to maintain a long-term balanced growth of population. Since the sixth national census, China has witnessed marked changes in the internal drivers and external conditions for population development, with slower population growth, declining in fluctuation of work-age population and deepening aging society. ","The census can  perfect<语级> population development strategies and policy systems, promoting long-term balanced population growth.<误译> Since the sixth national census<漏译>, China has witnessed radical<过译/误译> changes in the external conditions and internal drivers<逻辑> for population development, with slower population growth, declining in fluctuation of work-age population<过度直译> and deepening aging society.","<语级>：improve更正式
+<逻辑>：顺序错误
+<过度直译>",3,"{
+    ""type"": ""Fluency"",
+    ""grade"": ""Good"",
+    ""mark"": 8,
+    ""mistakes"": [
+      {""smoothness"": ""The phrase 'declining in fluctuation of work-age population' is somewhat awkward and could be more fluently expressed as 'the working-age population declines despite frequent fluctuations'.""},
+      {""language style"": ""The translation 'deepening aging society' could be more elegantly phrased as 'the whole country is ageing fast' to better match the style of the original text.""}
+    ]
+}",2,1.0,0.5,0.3333333333333333
+4,2021上-4,全面查清我国人口数量、结构、分布、城乡住房等方面的最新情况，了解人口增长、劳动力供给、流动人口变化情况，摸清老年人口规模，为制定和完善未来收入、消费、教育、就业、养老、医疗、社会保障等政策措施提供基础，也为教育和医疗机构布局、儿童和老人服务设施建设、工商业服务网点分布、城乡道路建设等提供依据。,"Therefore, it is important to collect the latest data about the size, structure and distribution of the population as well as housing conditions in rural and urban areas, learn about changes in population size, in labor supply and in migration, and calculate the size of the elderly population. These data lay the foundations for formulating and improving policy measures in terms of income, consumption, education, employment, senior care, and social protection. Also, they provide the basis for the planning of educational and medical institutions and service outlets of businesses, and the construction of facilities for children and senior citizens along with road in both rural and urban areas. ","In this context, it is necessary to upgrade the latest data about population size, structure, distribution and housing in the urban and rural areas, to learn about changes in population growth, labor supply and migrant population, as well as the size of elderly population. These information will lay a solid foundation for designing and further improving policy measures of income, consumption, education, employment, elderly service, medical care and social security. It will also guide the establishment of educational and medical institutions, the construction of facilities for children and aged population, the distribution of business service outlets and the planning of urban and rural road construction.","In this context, it is necessary to upgrade the latest data about population size,<漏译> distribution and housing in the urban and rural areas, to learn about changes in population growth, labor supply and people who move<语级>, as well as the size of old population<语言风格>. These information will lay a solid<过译> foundation for designing and further improving policy measures of income, consumption, <漏译> employment, elderly service, medical care and social security. It will also guide the establishment of educational and medical institutions, the construction of facilities for children and aged population, the distribution of business service outlets and the planning of roads in urban and rural areas.<语级>","<语级>：相比于migrant population不正式
+<语言风格>：old不礼貌
+<语级>：相比于urban and rural road construction不正式",3,"{
+    ""type"": ""Fluency"",
+    ""grade"": ""Good"",
+    ""mark"": 8,
+    ""mistakes"": [
+      {""smoothness"": ""The phrase 'people who move' is less fluent and could be replaced with 'migration' for better readability.""},
+      {""language style"": ""The term 'old population' is less formal and could be replaced with 'elderly population' to match the formal tone of the original text.""},
+      {""over literal translation"": ""The phrase 'These information will lay a solid foundation' could be more fluently translated as 'These data lay the foundations' to avoid the slightly awkward construction and to align more closely with the reference text.""}
+    ]
+}",3,2.0,0.6666666666666666,0.6666666666666666
+5,2021上-5,人口普查工作从方案制定、物资准备、试点、人员培训、入户登记到数据处理等一切工作都离不开人，队伍建设非常重要。能否组织好人口普查队伍，能否做好普查人员的选调，直接影响到普查的工作质量和数据质量。,"From plan-making to preparation of materials, from pilot programs to personnel training, from door-to-door visits to data processing, every aspect of the national census depends on census workers and consequently it is imperative to enhance their capacity-building. Whether a qualified census team can be built has a direct impact on the quality of the census and the resultant data. ","The efforts of census workers are indispensable in the process of national census, from plan-making, material preparation, piloting, personnel training, door-to-door registration to data processing and thus it is critical to build a good census team. Both the organization of the team and the recruitment of census workers directly impact the quality of census and data.","The efforts of census workers are important<欠译/误译> in the process of national census, from making plans<语言风格>, material preparation, personnel training, piloting<逻辑>, <漏译>registration to data processing and thus it is critical to build a good census team. Both the organization of the team and the choosing<语级> of census workers <欠译/漏译>impact the quality of census and data.","<语言风格>：plan-making
+<逻辑>：并列短语顺序
+<语级>：recruitment更正式",3,"{
+    ""type"": ""Fluency"",
+    ""grade"": ""Good"",
+    ""mark"": 8,
+    ""mistakes"": [
+      {""smoothness"": ""The translation, while conveying the overall message, rearranges the sequence of activities mentioned in the source text, which might slightly affect the fluency for readers familiar with the original structure.""},
+      {""language style"": ""The phrase 'the efforts of census workers are important' is a more passive construction compared to the active and direct style of the original text, which emphasizes the indispensability of human involvement in every aspect of the census work.""}
+    ]
+}",2,1.0,0.5,0.3333333333333333
+6,2021下-1,中国迄今已向全球160多个国家和国际组织提供了抗疫物资援助，正在以不同方式向100多个国家和国际组织提供急需的疫苗，为全球疫情防控提供了强大助力。,We have provided pandemic supplies for more than 160 countries and international organizations and is now offering in different ways much-needed vaccines to more than 100 countries and international organizations. All these efforts mean strong momentum to pandemic response worldwide.,"We have donated supplies to over 160 countries and international organizations and are providing, by various means, vaccines to over 100 countries and international organizations in urgent need, thus giving a strong boost to the global COVID response. ","Supplies have been donated by us to over 160 countries<漏译> and vaccines are being provided, <流畅度> by various means, vaccines to over 100 countries<漏译> in <漏译/欠译>need, providing a powerful lift<语级> to the global COVID response. ","<流畅度>将主动语态改为被动语态，句子过长阅读不顺畅
+<语级>：不够正式",2,"{
+    ""type"": ""Fluency"",
+    ""grade"": ""Good"",
+    ""mark"": 8,
+    ""mistakes"": [
+      {""smoothness"": ""The sentence structure in 'vaccines are being provided, by various means, vaccines to over 100 countries in need' is somewhat awkward and disrupts the flow of reading.""},
+      {""language style"": ""The phrase 'providing a powerful lift to the global COVID response' slightly deviates from the original's more formal tone of '为全球疫情防控提供了强大助力'.""}
+    ]
+}",2,2.0,1.0,1.0
+7,2021下-2,接下来，中国将继续充分发挥自身优势，维护全球抗疫物资供应链稳定，将继续积极开展人道主义援助，向有需要的国家提供支持，将继续坚定秉持疫苗公共产品的“第一属性”，让更多发展中国家用得起、用得上安全可靠的疫苗。,"China will continue to leverage its strengths to help maintain the stability of global supply chains of anti-pandemic materials. It will offer humanitarian aid, and provide support and assistance for countries in need. In addition, acting on the belief that vaccines are public goods in nature, it will work to help ensure that safe and reliable vaccines are affordable and accessible in more developing countries.",China will continue to fully harness its strengths to keep the global supply chains for COVID supplies stable; China will continue to provide humanitarian assistance and support countries in need; and China will stay committed to making COVID vaccines a public good above anything else so that safe and effective vaccines can be affordable and accessible to more developing countries.,China will keep to <漏译/欠译> flex its strengths<语言风格> to keep the global supply chains for COVID supplies stable; China will keep to provide humanitarian assistance for countries in need<漏译>; and China will keep to<重复> making COVID vaccines a public good above anything else. The purpose of it is that<流畅度> safe and effective vaccines can be affordable and accessible to more <漏译>countries.,"<语言风格>：贬义
+<重复>：重复出现keep影响流畅度
+<流畅度>：断句和表达导致不够流畅",3,"{
+    ""type"": ""Fluency"",
+    ""grade"": ""Passable"",
+    ""mark"": 6,
+    ""mistakes"": [
+      {""smoothness"": ""The phrase 'keep to flex its strengths' is awkward and disrupts the fluency of the text.""},
+      {""language style"": ""The repetition of 'China will keep to' at the beginning of each clause makes the text sound repetitive and less sophisticated compared to the reference text.""},
+      {""over literal translation"": ""The phrase 'making COVID vaccines a public good above anything else' is a bit too literal and misses the nuanced expression of '疫苗公共产品的“第一属性”', which was elegantly translated in the reference text as 'acting on the belief that vaccines are public goods in nature'.""}
+      ]
+}",3,2.0,0.6666666666666666,0.6666666666666666
+8,2021下-3,我们将坚持开放合作，与各国携手推动世界经济复苏。世界充满不确定，而中国的未来是确定的，我们已顺利开启“十四五”规划，迈向2035年远景目标，加快建设更高水平开放型经济新体制。,"We will renew our commitment to reform and opening up and boost the recovery of the world economy in partnership with the wider international community. The world is awash with uncertainties, but China’s future is certain. We have rolled out the 14th Five-Year Plan and embarked on the path to Vision 2035 to build a higher-quality, open economy. ","We will uphold openness and cooperation as we work with other countries to promote world economic recovery. We have made a good start in implementing the 14th Five-Year Plan, and are
+ developing new systems for a higher-standard open economy at a faster pace. ","We will stick to openness and cooperation, hand in hand with countries to push world economy recovery.<语级> The world is full of uncertain, but China's future is certain,<逻辑混乱>We have made a good start in implementing the 14th Five-Year Plan, <漏译/欠译>and are at a faster<过度直译> speed developing new systems for a high-standard<误译> open economy.","<语级>：语言不够正式
+<逻辑混乱>：中国和世界存在包含关系
+<过度直译>：介词短语放前面不合适",3,"{
+    ""type"": ""Fluency"",
+    ""grade"": ""Good"",
+    ""mark"": 8,
+    ""mistakes"": [
+      {""smoothness"": ""The phrase 'hand in hand with countries to push world economy recovery' could be more fluently expressed as 'in partnership with the wider international community to boost the recovery of the world economy'.""},
+      {""language style"": ""The use of 'stick to' instead of 'renew our commitment to' slightly alters the tone, making it less formal and slightly less aligned with the original text's emphasis on ongoing efforts.""},
+      {""smoothness"": ""The phrase 'The world is full of uncertain' is grammatically awkward; 'The world is awash with uncertainties' would be smoother.""},
+      {""language style"": ""The phrase 'are at a faster speed developing' is less smooth and formal than 'have embarked on the path to'. The original phrase conveys a sense of deliberate and strategic progress, which is somewhat lost in the translation.""}
+    ]
+}",4,3.0,0.75,1.0
+9,2021下-4,一个全面迈向高质量发展的中国，将更充分发掘自身超大市场潜力，为各国带来新的发展机遇。而一个持续扩大对外开放的中国，将进一步深化与各国互利合作，为世界经济复苏注入更多动力。,"A China that moves towards high-quality development will unleash more of its potential as a supersized market and open up more opportunities for other countries. At the same time, a China that opens wider to the rest of the world will deepen its win-win cooperation with other countries and give an added impetus to global economic recovery.","As a country pursuing high-quality development, China will further unleash the potential of its huge market to bring new development opportunities to all countries. As a country in the process of further opening up, China will deepen mutually beneficial cooperation with other countries to inject more impetus to world economic recovery.","As a country  chasing<语言风格> high-quality development, China will <欠译/漏译>unleash the potential of its huge market to bring new development chances<语级> to all countries. As a country in the process of <欠译/漏译>opening up, China will deepen cooperation of mutual benefit with all countries<流畅度/语序>, to inject more impetus to world economic<漏译>.","<语言风格>：pursuing
+<语级>：chances不够正式
+<流畅度/语序>",3,"{
+    ""type"": ""Fluency"",
+    ""grade"": ""Good"",
+    ""mark"": 8,
+    ""mistakes"": [
+      {""smoothness"": ""The phrase 'chasing high-quality development' is less smooth compared to 'moves towards high-quality development' in the reference text, affecting the fluency.""},
+      {""language style"": ""The phrase 'to bring new development chances to all countries' is slightly less formal and less precise than 'open up more opportunities for other countries' found in the reference text.""},
+      {""smoothness"": ""The omission of 'recovery' in 'world economic' makes the final phrase 'to inject more impetus to world economic' less smooth and slightly unclear compared to 'give an added impetus to global economic recovery'.""}
+    ]
+}",3,2.5,0.8333333333333334,0.8333333333333334
+10,2021下-5,中国，将继续高举人类命运共同体旗帜，坚持共商共建共享原则，积极践行真正的多边主义，捍卫以《联合国宪章》为基础的国际秩序，持续完善全球治理体系，建设人类卫生健康共同体，与各国一道维护世界和平稳定，弥合人类发展鸿沟，共同开创更加美好的未来。,"Going forward, China will continue to push for a community with a shared future for mankind under the principle of extensive consultation, joint contribution, and shared benefits. It will uphold multilateralism, defend the international order underpinned by the UN Charter，upgrade the global governance system, and build a global community of health for all. Moreover, it stands ready to work together with other countries to maintain world peace and stability, bridge human development disparities and together shape the future for the better.","China will stay committed to the vision of building a community with a shared future for mankind, follow the principles of extensive consultation, joint contribution and shared benefits, uphold true multilateralism, and safeguard the international order based on the UN Charter. China will continue to improve the global governance system and build a global community of health for all. China will work with other countries to maintain world peace and stability, bridge the development gap, and create a brighter future for all.","China will persist in the high lifting of the flag<过度直译> of building a community with a shared future for mankind, follow the principles of extensive consultation, joint contribution and shared benefits, <漏译> and defend the international order with the UN Charter as the base.<流畅度/语序> China will continue to maintain<误译> the global governance system and build a global community of health for all. China will work with other countries to maintain world peace and stability, totally<增译/过译> bridge the development gap, and create a brighter future for all.","<过度直译>：stay committed to 
+<逻辑/语序>：短语顺序与原文不一致
+<流畅度/语序>：使用based on更简介流畅",2,"{
+    ""type"": ""Fluency"",
+    ""grade"": ""Good"",
+    ""mark"": 8,
+    ""mistakes"": [
+      {""smoothness"": ""The phrase 'persist in the high lifting of the flag' is somewhat awkward and could be more fluently expressed as 'continue to uphold' to better match the reading habits of the target language readers.""},
+      {""language style"": ""The use of 'totally bridge the development gap' slightly deviates from the original's more formal and measured tone, suggesting a more absolute outcome than 'bridge human development disparities'.""}
+      ]
+}",2,1.0,0.5,0.5
